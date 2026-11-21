@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Community Festival Booking</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Community Festival</h1>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#puja">About</a>
+            <a href="#events">Events</a>
+            <a href="#booking">Book Slot</a>
+            <a href="#stalls">Food & Games</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+
+        <img src="images/festival.jpg" alt="Festival Mela">
+
+        <h2>Welcome to Community Festival!</h2>
+
+        <p>
+            Celebrate Indian culture, enjoy traditional
+            performances and explore delicious food.
+        </p>
+
+        <a href="#booking" class="main-btn">
+            Book Your Slot
+        </a>
+
+    </section>
+
+    <!-- Durga Puja Section -->
+    <section id="puja">
+
+        <h2>Celebrate Durga Puja</h2>
+
+        <img src="images/durga puja.jpg" alt="Durga Puja Celebration">
+
+        <p>
+            Experience the joy of traditions,
+            devotion and cultural celebrations.
+        </p>
+
+    </section>
+
+    <!-- Cultural Programs -->
+    <section id="events">
+
+        <h2>Cultural Programs</h2>
+
+        <div class="cards">
+
+            <!-- Dance -->
+            <div class="card">
+
+                <img src="images/dance.jpg" alt="Traditional Dance">
+
+                <h3>Traditional Dance</h3>
+
+                <p>
+                    Enjoy traditional dance performances
+                    during the festival.
+                </p>
+
+            </div>
+
+            <!-- Music -->
+            <div class="card">
+
+                <img src="images/music.jpg" alt="Music Performance">
+
+                <h3>Music Performance</h3>
+
+                <p>
+                    Enjoy live cultural music and
+                    traditional musical performances.
+                </p>
+
+            </div>
+
+            <!-- Drama -->
+            <div class="card">
+
+                <img src="images/drama.jpg" alt="Drama Performance">
+
+                <h3>Drama</h3>
+
+                <p>
+                    Watch interesting Indian cultural
+                    drama performances.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking">
+
+        <h2>Book Your Entry Slot</h2>
+
+        <p>Reserve your festival visit in advance.</p>
+
+        <form id="bookingForm">
+
+            <label>Visitor Name:</label>
+
+            <input type="text" id="visitorName"
+                placeholder="Enter your name" required>
+
+            <label>Mobile Number:</label>
+
+            <input type="tel" id="mobile"
+                placeholder="Enter mobile number"
+                pattern="[0-9]{10}" required>
+
+            <label>Visit Date:</label>
+
+            <input type="date" id="visitDate" required>
+
+            <label>Select Time Slot:</label>
+
+            <select id="timeSlot" required>
+
+                <option value="">Choose a slot</option>
+
+                <option value="10 AM - 11 AM">10 AM - 11 AM</option>
+
+                <option value="11 AM - 12 PM">11 AM - 12 PM</option>
+
+                <option value="12 PM - 1 PM">12 PM - 1 PM</option>
+
+                <option value="1 PM - 2 PM">1 PM - 2 PM</option>
+
+                <option value="2 PM - 3 PM">2 PM - 3 PM</option>
+
+            </select>
+
+            <label>Number of Visitors:</label>
+
+            <input type="number" id="visitors"
+                min="1" max="5" value="1" required>
+
+            <button type="submit">Book My Slot</button>
+
+        </form>
+
+    </section>
+
+    <!-- Food and Games -->
+    <section id="stalls">
+
+        <h2>Food Stalls & Carnival Games</h2>
+
+        <div class="cards">
+
+            <!-- Food -->
+            <div class="card">
+
+                <img src="images/food.jpg" alt="Food Stalls">
+
+                <h3>Food Stalls</h3>
+
+                <p>
+                    Enjoy delicious traditional
+                    festival food.
+                </p>
+
+            </div>
+
+            <!-- Games -->
+            <div class="card">
+
+                <img src="images/games.jpg" alt="Carnival Games">
+
+                <h3>Carnival Games</h3>
+
+                <p>
+                    Enjoy exciting games and
+                    festival activities.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <h3>Community Festival Booking</h3>
+
+        <p>CSE326 Project | Made by Team 3</p>
+
+        <p>Celebrating Culture and Togetherness</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

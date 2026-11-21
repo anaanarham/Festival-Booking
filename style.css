@@ -1,0 +1,234 @@
+
+/* Basic Settings */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF9EF;
+    color: #35251F;
+}
+
+/* Header */
+
+header {
+    background-color: #8B1E2D;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #FFD98A;
+}
+
+/* Home Section */
+
+#home {
+    background-color: #F8E7C5;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#home img {
+    width: 90%;
+    max-width: 1000px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+#home h2 {
+    font-size: 32px;
+    color: #8B1E2D;
+    margin-bottom: 15px;
+}
+
+#home p {
+    margin-bottom: 25px;
+}
+
+/* Main Button */
+
+.main-btn {
+    display: inline-block;
+    background-color: #8B1E2D;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.main-btn:hover {
+    background-color: #D97706;
+}
+
+/* Common Sections */
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #8B1E2D;
+    margin-bottom: 25px;
+}
+
+/* Durga Puja Section */
+
+#puja {
+    background-color: #FCEBD2;
+}
+
+#puja img {
+    display: block;
+    width: 90%;
+    max-width: 650px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 3px solid #D4A64A;
+}
+
+/* Cards */
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 280px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #F0D8B5;
+    box-shadow: 0 2px 8px #DCCBB8;
+}
+
+.card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin: 12px 0;
+    color: #8B1E2D;
+}
+
+.card p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+/* Booking Form */
+
+#booking {
+    background-color: #F8E7C5;
+}
+
+#booking h2 {
+    color: #8B1E2D;
+}
+
+#booking p {
+    margin-bottom: 20px;
+}
+
+#bookingForm {
+    max-width: 450px;
+    margin: auto;
+    text-align: left;
+}
+
+#bookingForm label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#bookingForm input,
+#bookingForm select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #D4A64A;
+    border-radius: 5px;
+}
+
+#bookingForm button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #8B1E2D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#bookingForm button:hover {
+    background-color: #D97706;
+}
+
+/* Food and Games */
+
+#stalls {
+    background-color: #FFF9EF;
+}
+
+/* Footer */
+
+footer {
+    background-color: #651522;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+/* Mobile Design */
+
+@media (max-width: 600px) {
+
+    nav a {
+        display: block;
+        margin: 12px;
+    }
+
+    #home h2 {
+        font-size: 26px;
+    }
+
+    #home img {
+        height: 200px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+}
